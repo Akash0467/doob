@@ -35,7 +35,7 @@
     .menu{
         position: absolute;
         top: 13%;
-        right: -10%;
+        right: -110%;
         width: 0%;
         background: #e8f0f5;
         border-radius: 1rem;
@@ -47,7 +47,6 @@
         right: 0;
      }
     .header-top .menu ul{
-        /* display: none; */
         flex-direction: column;
     }
     .header-top .menu ul li a{
@@ -161,6 +160,14 @@
 }
 
 @media all and (max-width: 576px){
+	.container {
+		 padding-top: 0;
+	}
+	.header-top {
+		box-shadow: 0px 0px 15px #e1cccc;
+		padding: 15px 15px;
+		border-radius: 7px;
+}
     .bennar-item h1 {
         font-size: 5rem;
       }
