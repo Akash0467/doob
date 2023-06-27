@@ -1,0 +1,218 @@
+@media all and (max-width: 1920px) {
+    .about-left img{
+        margin-left: -10rem;
+    }
+}
+
+@media all and (max-width: 1450px){
+    .logo{
+        position: inherit;
+        margin-left: 0;
+    }
+    .about-left img{
+        margin-left: -9rem;
+    }
+}
+
+@media all and (max-width: 1380px){
+    .about-left img{
+        margin-left: -4rem;
+    }
+}
+@media all and (max-width: 1240px) {
+    .container{
+        width: 90%;
+    }
+    .about-left img{
+        margin-left: -4rem;
+    }
+}
+
+@media all and (max-width: 1160px) {
+    .container{
+        padding-top: 3rem;
+    }
+    .menu{
+        position: absolute;
+        top: 13%;
+        right: -10%;
+        width: 0%;
+        background: #e8f0f5;
+        border-radius: 1rem;
+        transition: 0.7s all ease-in-out;
+        overflow: hidden;
+     }
+     .other{
+        width: 50%;
+        right: 0;
+     }
+    .header-top .menu ul{
+        /* display: none; */
+        flex-direction: column;
+    }
+    .header-top .menu ul li a{
+        margin: 2rem 0;
+    }
+    .form-contant {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    .form-contant a {
+        display: inline-block;
+        margin-left: 3.5rem;
+    }
+	.click-event a {
+		background: red;
+		color: #fff;
+		display: inline-block;
+		background: red;
+		color: #fff;
+		height: 45px;
+		width: 50px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 7px;
+	}
+    .about-container{
+        -ms-grid-columns: 1fr;
+            grid-template-columns: 1fr;
+    }
+    .about-left img {
+        margin-left: 0;
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+    .about-right h2 {
+        max-width: 100%;
+      }
+}
+
+@media all and (max-width: 992px){
+    .header-area{
+        background: none;
+    }
+    .bennar-item h1 {
+        max-width: 100%;
+        font-size: 6rem;
+      }
+    .bennar-item p {
+        max-width: 85%;
+      }
+    .service-container{
+        -ms-grid-columns: 1fr;
+            grid-template-columns: 1fr;
+    }
+    .section-padding {
+        padding: 0;
+        padding-bottom: 3rem;
+      }
+    .service-item {
+        padding: 1.5rem 3rem;
+    }
+    .about-right h4 {
+        margin-bottom: 1.5rem;
+        margin-top: 1.3rem;
+    }
+    .potfolio-container-2 {
+        -ms-grid-columns: (1fr)[2];
+            grid-template-columns: repeat(2, 1fr);
+    }
+    .news-container-2 {
+        -ms-grid-columns: 1fr;
+            grid-template-columns: 1fr;
+    }
+    .potfolio-container-1 h2 {
+        max-width: 90%;
+      }
+    .about-container {
+        margin-top: 4rem;
+    }
+}
+
+@media all and (max-width: 768px){
+    .bennar-item h1 {
+        max-width: 100%;
+        font-size: 6rem;
+        line-height: 7.2rem;
+      }
+      .bennar-item p {
+        max-width: 100%;
+      }
+    .potfolio-container-2 {
+        -ms-grid-columns: 1fr;
+            grid-template-columns: 1fr;
+    }
+    .input-item-1{
+        -ms-grid-columns: 1fr;
+            grid-template-columns: 1fr;
+    }
+    .container.news-area {
+        padding-bottom: 4rem;
+      }
+    .potfolio-item.about-icon {
+        padding-top: 5rem;
+    }
+    .potfolio-container-1 h2 {
+        max-width: 90%;
+    }
+}
+
+@media all and (max-width: 576px){
+    .bennar-item h1 {
+        font-size: 5rem;
+      }
+      .about-right h2 {
+        font-size: 3.5rem;
+      }
+      .potfolio-container-1 h2 {
+        font-size: 3.5rem;
+      }
+      .news-item h2{
+        font-size: 3.5rem;
+      }
+    .form-contant select{
+       display: none;
+    }
+    .potfolio-item.about-icon {
+        padding-top: 5rem;
+      }
+      .contact-area h2 {
+        font-size: 3.5rem;
+      }
+      .footer-container h2{
+        font-size: 3.8rem;
+      }
+}
+@media all and (max-width: 480px){
+    .other{
+        width: 100%;
+        right: 0;
+      }
+    .bennar-item h1 {
+        font-size: 3rem;
+      }
+    .form-contant .btn1 {
+        display: none;
+      }
+    .bennar-item h1 {
+        font-size: 5.3rem;
+      }
+    .footer-menu li a{
+        margin-bottom: 2rem;
+    }
+}
+@media all and (max-width: 420px){
+    .site-btn{
+        margin-left: 4rem;
+        margin-top: 2.5rem;
+    }
+}
+@media all and (max-width: 420px){
+
+    .footer-container h2 {
+        font-size: 3.5rem;
+      }
+}
